@@ -21,7 +21,7 @@ body {
 
 /* Seção principal */
 #about {
-    text-align: center;
+    text-align: left;
     padding: 40px 0;
 }
 
@@ -45,8 +45,11 @@ body {
 
 #about figcaption {
     font-size: 0.9em;
+    font-style: italic;
+    text-align: center;
     color: #777;
     margin-top: 10px;
+
 }
 
 /* Seção de história */
@@ -86,6 +89,54 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilização da seção "Bom para:" */
+.recommendations p {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.recommendations ul {
+    padding-left: 20px; 
+}
+
+.history-list li {
+    color: #0C51A7;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.recommendations li {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+/* Mantém os pontos de lista pretos */
+.recommendations, li::marker {
+    color: black;
+}
+
+/* Estilização das cores específicas para o texto */
+.casais {
+    color: purple;
+}
+
+.familias {
+    color: red;
+}
+
+.orcamento {
+    color: orange;
+}
+
+#description {
+    text-align: center;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px; 
+}
+    
 /* Rodapé */
 footer {
     text-align: center;
